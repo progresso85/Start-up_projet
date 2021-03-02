@@ -1,0 +1,21 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    height: 120px;
+    border-bottom: solid 2px black;
+}
+
+#logo{
+    margin-left: 200px;
+    width: 45%;
+}
+
+.nav-item{
+     width: 50%;
+ }
+ 
+
+
