@@ -1,0 +1,46 @@
+html{
+    width: 100%;
+}
+#photo{
+    margin-top: 8%;
+    position: relative;
+    width: 100%;
+}
+#photo1{
+    width: 50%;
+}
+#photo2{
+    width: 50%;
+}
+#pro {
+    position: absolute;
+    top: 45%;
+    left: 34%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #ab0d18;
+    font-family: century-gothic, sans-serif;
+    text-decoration: none;
+    border: 2px white solid;
+    background-color: white;
+}
+#pro:visited{
+    color: #ab0d18;
+}
+#part{
+    position: absolute;
+    top: 45%;
+    left: 51.7%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: century-gothic, sans-serif;
+    text-decoration: none;
+    border: 2px white solid;
+    background-color: white;
+}
+#part:link{
+    color: black;
+}
+#part:visited{
+    color: black;
+}
