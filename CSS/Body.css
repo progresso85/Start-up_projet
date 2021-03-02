@@ -2,7 +2,6 @@ html{
     width: 100%;
 }
 #photo{
-    margin-top: 8%;
     position: relative;
     width: 100%;
 }
@@ -14,23 +13,23 @@ html{
 }
 #pro {
     position: absolute;
-    top: 45%;
-    left: 34%;
+    top: 80%;
+    left: 17%;
     padding-left: 1%;
     padding-right: 1%;
-    color: #ab0d18;
+    color: black;
     font-family: century-gothic, sans-serif;
     text-decoration: none;
     border: 2px white solid;
     background-color: white;
 }
 #pro:visited{
-    color: #ab0d18;
+    color: black;
 }
 #part{
     position: absolute;
-    top: 45%;
-    left: 51.7%;
+    top: 80%;
+    left: 70%;
     padding-left: 1%;
     padding-right: 1%;
     font-family: century-gothic, sans-serif;
