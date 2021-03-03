@@ -1,0 +1,105 @@
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+
+.FirstParagraph{
+    color: black;
+    text-align: center;
+    background-color: #ab0d18;
+}
+
+#Intro{
+    color: black;
+
+}
+
+.SecondParagraph{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.ThirdParagraph{
+    margin-left: 3%;
+    background-color: #ab0d18;
+    margin-top: 7%;
+}
+
+.FourthParagraph{
+    margin-top: 10%;
+}
+
+.FifthParagraph{
+    margin-left: 5%;
+    background-color: #ab0d18;
+    margin-top: 7%;
+}
+
+.ImageBlog{
+    width: 47%;
+    height: 47%;
+}
+
+.ImageBlog2{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 60%;
+    height: 60%;
+}
+
+
+.ImageFlower2{
+    margin-left: 7%;
+}
+
+#Item1{
+    margin-left: 2%;
+    border-right: black;
+}
+
+#Item2{
+    margin-top: 5%;
+}
+
+.FirstTitle{
+   text-align: center;
+    font-weight: bold ;
+}
+
+.SecondTitle{
+    margin-left: 10%;
+    font-weight: bold ;
+}
+
+.ThirdTitle{
+    text-align: center;
+    font-weight: bold ;
+}
+
+.Flower1{
+    width: 40%;
+    height: 40%;
+}
+
+#Flower2{
+    width: 20%;
+    height: 20%;
+}
+
+#Flower3{
+    width: 20%;
+    height: 20%;
+}
+
+.btn1{
+    margin-top: 2%;
+}
+
+.btn2{
+    margin-top: 2%;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+}
