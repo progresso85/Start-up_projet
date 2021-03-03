@@ -18,37 +18,31 @@
     line-height: normal;
 }
 .Pro{
-    position: absolute;
-    top: 7%;
-    left: 7%;
     padding: 0.5%;
     text-decoration: none;
     font-family: 'Arima Madurai', cursive;
     font-weight: bold;
 }
 .Pro:link{
-    color: #ab0d18;
+    color: black;
 }
 .Pro:visited{
-    color: #ab0d18;
+    color: black;
 }
 .Pro:hover{
     color: #ab0d18;
 }
 .Part{
-    position: absolute;
-    top: 7%;
-    left: 15%;
     padding: 0.5%;
     text-decoration: none;
     font-family: 'Arima Madurai', cursive;
     font-weight: bold;
 }
 .Part:link{
-    color: #ab0d18;
+    color: black;
 }
 .Part:visited{
-    color: #ab0d18;
+    color: black;
 }
 .Part:hover{
     color: #ab0d18;

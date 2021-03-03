@@ -1,0 +1,9 @@
+/* carousel photo */
+.carousel-inner img {
+    width: 100%;
+    height: 70%;
+}
+#myCarousel{
+    margin: auto;
+    margin-top: 2%;
+}
