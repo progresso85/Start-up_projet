@@ -1,29 +1,69 @@
-header{
-    font-family: century-gothic, sans-serif;
+/* Header */
+#Choice{
+    text-align: center;
+    margin-top: 2%;
 }
-#navbar{
-    display: flex;
-    flex-direction: row;
+#Presentation{
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Arima Madurai', cursive;
 }
+#Title{
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+    /* line-height: 50%; */
+}
+#Subtitle{
+    font-size: 150%;
+    line-height: normal;
+}
+.Pro{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    padding: 0.5%;
+    text-decoration: none;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
 
-.navbar{
-    height: 120px;
 }
-
-#logo{
-    margin-left: 200px;
-    width: 10%;
+.Pro:link{
+    color: #ab0d18;
 }
-
-.nav-item{
-     width: 50%;
+.Pro:visited{
+    color: #ab0d18;
 }
-a:link{
-    color:black;
+.Pro:hover{
+    color: #ab0d18;
+}
+.Part{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    padding: 0.5%;
+    text-decoration: none;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+}
+.Part:link{
+    color: #ab0d18;
+}
+.Part:visited{
+    color: #ab0d18;
+}
+.Part:hover{
+    color: #ab0d18;
+}
+#Fr{
+    font-family: 'Arima Madurai', cursive;
+}
+#Fr:link{
+    color: black;
     text-decoration: none;
 }
-a:visited{
+#Fr:visited{
     color: black;
 }
-
-
+#Fr:hover{
+    color: #ab0d18;
+}
