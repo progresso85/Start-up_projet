@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../Css/bootstrap.min.css">
         <link rel="stylesheet" href="../Css/Index.css">
+        <link rel="stylesheet" href="../CSS/header-page.css">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;700&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;700&family=Sacramento&display=swap" rel="stylesheet">
@@ -13,22 +14,30 @@
     </head>
     <!-- Menu du site -->
     <header>
-        <div class="container-fluid" style="margin-bottom: 2%;">
-            <div id="NavBar" class="row">
-                <div id="Choix" class="col" style="text-align: center;margin-top: 3.5%;">
-                    <a class="Pro" href="../Html/Home.html">Professionnel</a>
-                    <a class="Part" href="../Html/Home.html">Particulier</a>
+            <div class="container-fluid">
+                <div id="NavBar" class="row">
+                    <div id="Choix" class="col" style="text-align: center;margin-top: 3.5%;">
+                        <a class="client" id="Pro" href="#">Professionnel</a>
+                        <a class="client" id="Part" href="#">Particulier</a>
+                    </div>
+                    <div id="Presentation" class="col">
+                        <h1 id="Title">Anaïs <img src="../Image/Logo.png" alt="" style="width: 15%;margin-bottom: 5%;"> Fournial</h1>
+                    </div>
+                    <div class="col" style="text-align: center;margin-top: 3.5%;">
+                        <a id="Fr" href="#">FR</a>
+                    </div>
                 </div>
-                <div id="Presentation" class="col">
-                    <h1 id="Title">Anaïs <img src="../Image/Logo.png" alt="" style="width: 15%;margin-bottom: 5%;"> Fournial</h1>
-                    <p style="line-height: 7%;">Maison de création de parfums</p>
-                </div>
-                <div class="col" style="text-align: center;margin-top: 3.5%;">
-                    <a id="Fr" href="#">FR</a>
-                </div>
+                <nav>
+                    <ul class="menu">
+                        <li class="li-cat"><a class="a-cat" href="#">Accueil</a></li>
+                        <li class="li-cat"><a class="a-cat" href="#">Parfums</a></li>
+                        <li class="li-cat"><a class="a-cat" href="#">Ateliers</a></li>
+                        <li class="li-cat"><a class="a-cat" href="#">Blog</a></li>
+                        <li class="li-cat"><a class="a-cat" href="#">Presse</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </header>
+          </header>
 
     <!-- Corps du site -->
     <body>

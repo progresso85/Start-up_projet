@@ -18,51 +18,46 @@
     font-size: 150%;
     line-height: normal;
 }
-.Pro{
+#Pro{
     padding: 1%;
     text-decoration: none;
     font-family: 'Arima Madurai', cursive;
-    font-weight: bold;
-    -webkit-transition: all 0.8s ease;
-    -moz-transition: all 0.8s ease;
 }
-.Pro:link{
+#Pro:link{
     color: #000000;
 }
-.Pro:visited{
+#Pro:visited{
     color: #000000;
 }
-.Pro:hover{
+#Pro:hover{
     color: #ab0d18;
-    background-color: #ececec;
-    border-radius: 5px;
-    -webkit-transform: scale(1.10);
-    -moz-transform: scale(1.10);
+    
 }
-.Part{
-    padding: 1%;
-    margin-left: 2%;
+#Part{
+    padding: 1%;    
     text-decoration: none;
     font-family: 'Arima Madurai', cursive;
-    font-weight: bold;
-    -webkit-transition: all 0.8s ease;
-    -moz-transition: all 0.8s ease;
 }
-.Part:link{
+#Part:link{
     color: #000000;
 }
-.Part:visited{
+#Part:visited{
     color: #000000;
 }
-.Part:hover{
+#Part:hover{
     color: #ab0d18;
-    background-color: #ececec;
-    border-radius: 5px;
     -webkit-transform: scale(1.10);
     -moz-transform: scale(1.10);
 }
+
+.li-client{
+    list-style: none;
+}
+
 #Fr{
     font-family: 'Arima Madurai', cursive;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
 }
 #Fr:link{
     color: black;
@@ -73,6 +68,8 @@
 }
 #Fr:hover{
     color: #ab0d18;
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
 }
 
 .menu{
@@ -113,7 +110,7 @@
     transition: width .3s;
 }
 .li-cat:hover::after {
-    width: 110%;
+    width: 130%;
     color: #ab0d18;
 }
 
