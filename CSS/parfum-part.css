@@ -1,0 +1,35 @@
+article{
+    font-family: 'Arima Madurai', cursive;
+}
+
+h2{
+    font-family: timberline, sans-serif;
+}
+
+#box-desc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caracter{
+    width: 40%;
+    margin: 5%;
+}
+#perso{
+    display: inline;
+}
+#inspi{
+    
+}
+#exp{
+}
+
+.img-parfum{
+    width: 40%;
+    margin-left: 5%;
+}
+#perso-parfum{
+    width: 400px;
+}
+#inspi-parfum{
+    width: 400px;
+}

@@ -1,5 +1,13 @@
 /* Header */
-
+#header{
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+section{
+    margin-top: 12%;
+}
 #Choice{
     text-align: center;
     margin-top: 2%;
@@ -115,7 +123,7 @@
 }
 
 .menu {
-    margin-left: 35%;
+    margin-left: 33%;
     width: 65%;
     animation-duration: 1.5s;
     animation-name: slideMenu;
@@ -128,7 +136,7 @@
     }
   
     to {
-      margin-left: 35%;
+      margin-left: 33%;
       width: 65%;
     }
   }
