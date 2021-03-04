@@ -5,7 +5,9 @@
 }
 #myCarousel{
     margin: auto;
-    margin-top: 40%;
+}
+section{
+    margin-top: 7%;
 }
 
 /* Body */
