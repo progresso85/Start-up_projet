@@ -7,3 +7,46 @@
     margin: auto;
     margin-top: 40%;
 }
+
+/* Body */
+.Title{
+    color: white;
+    font-style: italic;
+    margin-top: 20%;
+    font-size: 170%;
+    font-family: timberline, sans-serif;
+    border: 1px #ab0d18 solid;
+    background-color: #ab0d18;
+    width: 70%;
+    text-align: center;
+    margin-left: 40%;
+}
+.Title2{
+    color: white;
+    font-style: italic;
+    margin-top: 20%;
+    font-size: 170%;
+    font-family: timberline, sans-serif;
+    border: 1px #ab0d18 solid;
+    background-color: #ab0d18;
+    width: 70%;
+    text-align: center;
+    margin-left: -10%;
+}
+.Title3{
+    color: white;
+    font-style: italic;
+    margin-top: 20%;
+    font-size: 170%;
+    font-family: timberline, sans-serif;
+    border: 1px #ab0d18 solid;
+    background-color: #ab0d18;
+    width: 70%;
+    text-align: center;
+    margin-left: 40%;
+}
+.Subtitle{
+    text-align: center;
+    font-size: 130%;
+    margin-top: 3%;
+}
