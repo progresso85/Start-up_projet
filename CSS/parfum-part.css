@@ -5,6 +5,11 @@ article{
 h2{
     font-family: timberline, sans-serif;
 }
+#cat-PP{
+    font-family: timberline, sans-serif;
+    text-align: center;
+    margin-top: %;
+}
 
 #box-desc{
     display: flex;
@@ -12,24 +17,52 @@ h2{
 }
 .caracter{
     width: 40%;
-    margin: 5%;
+    margin-top: 10%;
 }
 #perso{
-    display: inline;
+    margin-left: 20%;
 }
 #inspi{
-    
+    margin-top: 15%;
 }
 #exp{
+    margin-left: 10%;
 }
 
 .img-parfum{
-    width: 40%;
-    margin-left: 5%;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 10%;
+    
 }
 #perso-parfum{
-    width: 400px;
+    width: 30%;
+}
+#img-perso{
+    margin-right: 300px;
 }
 #inspi-parfum{
-    width: 400px;
+    width: 45%;
+    margin-left: 5%;
+}
+#exp-parfum{
+    width: 35%;
+
+}
+
+#art{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nom-art{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#cit{
+    text-align: center;
+    margin-bottom: 10%;
 }

@@ -4,13 +4,13 @@
     position: fixed;
     z-index: 2;
     background-color: white;
+    font-size: 80%;
 }
 section{
-    margin-top: 12%;
+    margin-top: 7%;
 }
 #Choice{
     text-align: center;
-    margin-top: 2%;
 }
 #Presentation{
     text-align: center;
@@ -19,7 +19,7 @@ section{
 }
 #Title{
     font-family: 'Sacramento', cursive;
-    font-size: 300%;
+    font-size: 250%;
     /* line-height: 50%; */
 }
 #Subtitle{
@@ -96,7 +96,8 @@ section{
     text-decoration: none;
     color: black;
     font-family: 'Arima Madurai', cursive;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     -webkit-transition: all 0.8s ease;
     -moz-transition: all 0.8s ease;
 }
