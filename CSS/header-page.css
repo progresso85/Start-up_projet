@@ -30,6 +30,7 @@ section{
     padding: 1%;
     text-decoration: none;
     font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
 }
 #Pro:link{
     color: #000000;
@@ -45,6 +46,7 @@ section{
     padding: 1%;    
     text-decoration: none;
     font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
 }
 #Part:link{
     color: #000000;
