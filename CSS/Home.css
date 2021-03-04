@@ -12,48 +12,49 @@ section{
 
 /* Body */
 .Title{
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: italic;
     margin-top: 20%;
+    margin-left: 15%;
     font-size: 200%;
     font-family: timberline, sans-serif;
-    border: 1px #ab0d18 solid;
-    background-color: #ab0d18;
     width: 70%;
-    text-align: center;
-    margin-left: 40%;
     padding: 1%;
-
 }
 .Title2{
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: italic;
     margin-top: 20%;
     font-size: 200%;
     font-family: timberline, sans-serif;
-    border: 1px #ab0d18 solid;
-    background-color: #ab0d18;
     width: 70%;
-    text-align: center;
-    margin-left: -10%;
     padding: 1%;
-
 }
 .Title3{
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: italic;
     margin-top: 20%;
+    margin-left: 15%;
     font-size: 200%;
     font-family: timberline, sans-serif;
-    border: 1px #ab0d18 solid;
-    background-color: #ab0d18;
     width: 70%;
-    text-align: center;
-    margin-left: 40%;
     padding: 1%;
 }
 .Subtitle{
-    text-align: center;
     font-size: 130%;
     margin-top: 3%;
+    margin-left: 15%;
+}
+
+.img-home{
+    -webkit-transition: all 0.8s ease-in-out;
+
+}
+
+.img-home:hover{
+    -webkit-transform: scale(1.05);
+    opacity: 80%;
+}
+.div-img-home{
+    overflow: hidden;
 }
