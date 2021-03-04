@@ -15,37 +15,42 @@ section{
     color: white;
     font-style: italic;
     margin-top: 20%;
-    font-size: 170%;
+    font-size: 200%;
     font-family: timberline, sans-serif;
     border: 1px #ab0d18 solid;
     background-color: #ab0d18;
     width: 70%;
     text-align: center;
     margin-left: 40%;
+    padding: 1%;
+
 }
 .Title2{
     color: white;
     font-style: italic;
     margin-top: 20%;
-    font-size: 170%;
+    font-size: 200%;
     font-family: timberline, sans-serif;
     border: 1px #ab0d18 solid;
     background-color: #ab0d18;
     width: 70%;
     text-align: center;
     margin-left: -10%;
+    padding: 1%;
+
 }
 .Title3{
     color: white;
     font-style: italic;
     margin-top: 20%;
-    font-size: 170%;
+    font-size: 200%;
     font-family: timberline, sans-serif;
     border: 1px #ab0d18 solid;
     background-color: #ab0d18;
     width: 70%;
     text-align: center;
     margin-left: 40%;
+    padding: 1%;
 }
 .Subtitle{
     text-align: center;
