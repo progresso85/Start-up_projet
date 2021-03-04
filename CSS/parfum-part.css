@@ -1,12 +1,13 @@
+
 article{
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'century-gothic', sans-serif;
 }
 
 h2{
-    font-family: timberline, sans-serif;
+    font-family: 'timberline', sans-serif;
 }
 #cat-PP{
-    font-family: timberline, sans-serif;
+    font-family: 'timberline', sans-serif;
     text-align: center;
     margin-top: 5%;
     animation-duration: 3s;
@@ -35,7 +36,6 @@ h2{
 }
 #inspi{
     margin-top: 10%;
-    margin-left: 10%;
 }
 #exp{
     margin-top: 15%;
@@ -50,6 +50,9 @@ h2{
 .img-parfum:hover{
     opacity: 80%;
     -webkit-transform: scale(1.05);
+}
+#inspi-parfum{
+    margin-left: 12%;
 }
 .div-parfum{
     width: 30%;

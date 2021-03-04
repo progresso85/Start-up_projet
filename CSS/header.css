@@ -6,10 +6,10 @@
 #Presentation{
     text-align: center;
     margin-top: 1%;
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'monotype-modern-display', cursive;
 }
 #Title{
-    font-family: 'Sacramento', cursive;
+    font-family: 'century-gothic', sans-serif;
     font-size: 500%;
     /* line-height: 50%; */
 }
@@ -23,9 +23,7 @@
     left: 10%;
     padding: 0.5%;
     text-decoration: none;
-    font-family: 'Arima Madurai', cursive;
-    font-weight: bold;
-
+    font-family: 'century-gothic', sans-serif;
 }
 .Pro:link{
     color: #ab0d18;
@@ -42,8 +40,7 @@
     left: 20%;
     padding: 0.5%;
     text-decoration: none;
-    font-family: 'Arima Madurai', cursive;
-    font-weight: bold;
+    font-family: 'century-gothic', sans-serif;
 }
 .Part:link{
     color: #ab0d18;
@@ -55,7 +52,7 @@
     color: #ab0d18;
 }
 #Fr{
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'century-gothic', sans-serif;
 }
 #Fr:link{
     color: black;

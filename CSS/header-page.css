@@ -3,14 +3,15 @@
     top: 0px;
     position: fixed;
     z-index: 2;
-    background-color: white;
+    background:linear-gradient(rgb(255, 255, 255) ,rgba(255, 255, 255, 0.678));
     font-size: 90%;
-}
-section{
-    margin-top: 7%;
 }
 #Choice{
     text-align: center;
+    display: inline-block;
+}
+section{
+    margin-top: 10%;
 }
 #Presentation{
     text-align: center;
@@ -18,8 +19,8 @@ section{
     font-family: 'Arima Madurai', cursive;
 }
 #Title{
-    font-family: 'Sacramento', cursive;
-    font-size: 350%;
+    font-family: 'monotype-modern-display', cursive;
+    font-size: 300%;
     /* line-height: 50%; */
 }
 #Subtitle{
@@ -29,8 +30,7 @@ section{
 #Pro{
     padding: 1%;
     text-decoration: none;
-    font-family: 'Arima Madurai', cursive;
-    font-weight: bold;
+    font-family: 'century-gothic', sans-serif;
 }
 #Pro:link{
     color: #000000;
@@ -45,8 +45,7 @@ section{
 #Part{
     padding: 1%;    
     text-decoration: none;
-    font-family: 'Arima Madurai', cursive;
-    font-weight: bold;
+    font-family: 'century-gothic', sans-serif;
 }
 #Part:link{
     color: #000000;
@@ -65,7 +64,7 @@ section{
 }
 
 #Fr{
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'century-gothic', sans-serif;
     -webkit-transition: all 0.8s ease;
     -moz-transition: all 0.8s ease;
 }
@@ -98,7 +97,7 @@ section{
     display: inline-block;
     text-decoration: none;
     color: black;
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'century-gothic', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
     -webkit-transition: all 0.8s ease;
@@ -127,7 +126,7 @@ section{
 }
 
 .menu {
-    margin-left: 37%;
+    margin-left: 34%;
     width: 65%;
     animation-duration: 1.5s;
     animation-name: slideMenu;
@@ -140,7 +139,12 @@ section{
     }
   
     to {
-      margin-left: 37%;
+      margin-left: 34%;
       width: 65%;
     }
   }
+  nav{
+      margin: 0px;
+  }
+
+  
