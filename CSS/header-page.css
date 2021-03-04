@@ -122,12 +122,12 @@ section{
     transition: width .3s;
 }
 .li-cat:hover::after {
-    width: 102%;
+    width: 120%;
     color: #ab0d18;
 }
 
 .menu {
-    margin-left: 36%;
+    margin-left: 37%;
     width: 65%;
     animation-duration: 1.5s;
     animation-name: slideMenu;
@@ -140,7 +140,7 @@ section{
     }
   
     to {
-      margin-left: 36%;
+      margin-left: 37%;
       width: 65%;
     }
   }

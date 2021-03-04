@@ -8,12 +8,23 @@ h2{
 #cat-PP{
     font-family: timberline, sans-serif;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    animation-duration: 3s;
+    animation-name: slideTitle;
+}
+@keyframes slideTitle{
+    from{
+        margin-left:0%  
+    }
+    to{
+        text-align: center;
+    }
 }
 
 #box-desc{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 3%;
 }
 .caracter{
     width: 40%;
@@ -23,30 +34,31 @@ h2{
     margin-left: 12%;
 }
 #inspi{
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 #exp{
-
+    margin-top: 15%;
+    margin-left: 10%;
 }
 
 .img-parfum{
     width: 100%;
-    margin-top: 20%;
-    margin-left: 10%;
-    
+    -webkit-transition: all 0.8s ease-in-out;
 }
-#perso-parfum{
-    width: 30%;
-    margin-right: 15%;
-}
-#inspi-parfum{
-    width: 40%;
-    margin-left: 6%;
-}
-#exp-parfum{
-    width: 35%;
 
+.img-parfum:hover{
+    opacity: 80%;
+    -webkit-transform: scale(1.05);
 }
+.div-parfum{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
 
 #art{
     display: flex;
@@ -58,6 +70,7 @@ h2{
     margin-left: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
+    text-align: center
 }
 
 #cit{
