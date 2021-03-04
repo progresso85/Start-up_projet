@@ -19,7 +19,7 @@ section{
 }
 #Title{
     font-family: 'Sacramento', cursive;
-    font-size: 250%;
+    font-size: 350%;
     /* line-height: 50%; */
 }
 #Subtitle{
@@ -83,6 +83,7 @@ section{
 .menu{
     display: flex;
     flex-direction: row;
+    margin-top: 1%;
 }
 
 .li-cat{
@@ -124,7 +125,7 @@ section{
 }
 
 .menu {
-    margin-left: 33%;
+    margin-left: 36%;
     width: 65%;
     animation-duration: 1.5s;
     animation-name: slideMenu;
@@ -137,7 +138,7 @@ section{
     }
   
     to {
-      margin-left: 33%;
+      margin-left: 36%;
       width: 65%;
     }
   }
