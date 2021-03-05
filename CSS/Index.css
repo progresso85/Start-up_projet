@@ -69,10 +69,10 @@
     margin-bottom: 5%;
 }
 .Pro2{
-    border-radius: 2%;
     padding: 1%;
     text-decoration: none;
     font-weight: 700;
+    padding: 2%;
     font-family: 'century-gothic', sans-serif;
 }
 .Pro2:link{
@@ -82,13 +82,15 @@
     color: black;
 }
 .Pro2:hover{
-    color: black;
+    color: rgb(0, 0, 0);
+    border-top: solid 2px #ab0d18;
+    border-bottom: solid 2px #ab0d18;
 }
 .Part2{
-    border-radius: 2%;
     padding: 1%;
     text-decoration: none;
     font-weight: 700;
+    padding: 2%;
     font-family: 'century-gothic', sans-serif;
 }
 .Part2:link{
@@ -98,7 +100,9 @@
     color: black;
 }
 .Part2:hover{
-    color: black;
+    color: rgb(0, 0, 0);
+    border-top: solid 2px #ab0d18;
+    border-bottom: solid 2px #ab0d18;
 }
 
 /* Footer */

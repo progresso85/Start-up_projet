@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="../../CSS/bootstrap.min.css">
         <link rel="stylesheet" href="../../CSS/header-page.css">
         <link rel="stylesheet" href="../../CSS/Index.css">
-        <link rel="stylesheet" href="../../CSS/header.css">
         <link rel="stylesheet" href="../../CSS/Home.css">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;700&display=swap" rel="stylesheet"> 
@@ -20,14 +19,15 @@
     <body>
         <!-- Menu du site -->
         <header>
+            <header>
                 <div class="container-fluid" id="header">
                     <div id="NavBar" class="row">
                         <div id="Choix" class="col" style="text-align: center;margin-top: 2.5%;">
-                            <a class="client" id="Pro" href="../../Html/Pro/HomePro.html">Professionnel</a>
-                            <a class="client" id="Part" href="../../Html/Part/HomePart.html">Particulier</a>
+                            <a class="client" id="Pro" href="../Html/HomePro.html">Professionnel</a>
+                            <a class="client" id="Part" href="../Html/HomePart.html">Particulier</a>
                         </div>
                         <div id="Presentation" class="col">
-                            <h1 id="Title">ANAÏS <img src="/Image/Logo.png" alt="" style="width: 10%;"> FOURNIAL</h1>
+                            <h1 id="Title">ANAÏS <img src="/Image/Logo.png" alt="" style="width: 10%;margin-bottom: 3%;"> FOURNIAL</h1>
                         </div>
                         <div class="col" style="text-align: center;margin-top: 2.5%;">
                             <a id="Fr" href="#">FR</a>
@@ -35,15 +35,16 @@
                     </div>
                     <nav>
                         <ul class="menu">
-                            <li class="li-cat"><a class="a-cat" href="../../Html/Part/HomePart.html"> <span class="pop-cat">Accueil</span></a></li>
-                            <li class="li-cat"><a class="a-cat" href="../../Html/Part/parfumPeau-part.html"><span class="pop-cat">Parfums</span> </a></li>
-                            <li class="li-cat"><a class="a-cat" href="../../Html/Part/Workshop.html"><span class="pop-cat">Ateliers</span></a></li>
-                            <li class="li-cat"><a class="a-cat" href="../../Html/Blog.html"><span class="pop-cat">Blog</span></a></li>
-                            <li class="li-cat"><a class="a-cat" href="../../Html/Part/presse_particulier copy.html"><span class="pop-cat">Presse</span></a></li>
-                                </ul>   
+                            <li class="li-cat"><a class="a-cat" href="../Part/HomePart.html"> <span class="pop-cat">Accueil</span></a></li>
+                            <li class="li-cat"><a class="a-cat" href="../Part/parfumPeau-part.html"><span class="pop-cat">Parfums</span> </a></li>
+                            <li class="li-cat"><a class="a-cat" href="../Part/Workshop.html"><span class="pop-cat">Ateliers</span></a></li>
+                            <li class="li-cat"><a class="a-cat" href="/Html/Blog.html"><span class="pop-cat">Blog</span></a></li>
+                            <li class="li-cat"><a class="a-cat" href="../Part/presse_particulier copy.html"><span class="pop-cat">Presse</span></a></li>
+                        </ul>   
                     </nav>
                 </div>
             </header>
+        </header>
         <section style="margin-top: 10%;">
             <div class="container-fluid" style="margin-bottom: 3%;">
                 <!-- Carousel -->
@@ -72,14 +73,14 @@
                         <p class="Subtitle"style="font-size: 100%";>La haute parfumerie sur-mesure interprétée <br> avec délicatesse et sophistication.</p>
                     </div>
                     <div class="col-sm-6 div-img-home" style="text-align: center;">
-                        <img class="img-home" src="/ImageHome/Anais.png" alt="" style="width: 70%;"><!--border: 3px #D3C37B solid;-->
+                        <img class="img-home" src="/ImageHome/Anais.png" alt="" style="width: 70%;border: 6px #D3C37B solid;"><!--border: 3px #D3C37B solid;-->
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row" style="margin-bottom: 4%;">
                     <div class="col-sm-6 div-img-home" style="text-align: center;">
-                        <img class="img-home" src="/ImageHome/Anais2.png" alt="" style="width: 70%;"><!--border: 3px #D3C37B solid;-->
+                        <img class="img-home" src="/ImageHome/Anais2.png" alt="" style="width: 70%;border: 6px #D3C37B solid;"><!--border: 3px #D3C37B solid;-->
                     </div>
                     <div class="col-sm-6" style="font-family: 'century-gothic', sans-serif; padding-right: 5%;">
                         <h4 class="Title2">Créatrice d’emotion</h4>
@@ -104,17 +105,11 @@
                             et demande du temps.</p>
                     </div>
                     <div class="col-sm-6 div-img-home" style="text-align: center;">
-                        <img class="img-home" src="/ImageHome/Atelier.png" alt="" style="width: 70%;"><!--border: 3px #D3C37B solid;-->
+                        <img class="img-home" src="/ImageHome/Atelier.png" alt="" style="width: 70%;border: 3px #D3C37B solid;"><!--border: 3px #D3C37B solid;-->
                     </div>
                 </div>
             </div>
         </section>
-    </body>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../JS/bootstrap.min.js"></script>
-    <script src="../JS/Home.js"></script>
-
     <!-- Pied de page -->
     <footer>
         <div class="row" style="width: 100%;border-top: 1px #D3C37B solid;width: 90%;margin-left: 5%;margin-bottom: 5% ;padding-top: 3%;">
@@ -171,5 +166,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../JS/bootstrap.min.js"></script>
+    <script src="../../JS/Home.js"></script>
+    
+</body>
 </html>

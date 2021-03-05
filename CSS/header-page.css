@@ -126,7 +126,7 @@ section{
 }
 
 .menu {
-    margin-left: 34%;
+    margin-left: 36%;
     width: 65%;
     animation-duration: 1.5s;
     animation-name: slideMenu;
@@ -139,7 +139,7 @@ section{
     }
   
     to {
-      margin-left: 34%;
+      margin-left: 36%;
       width: 65%;
     }
   }
